@@ -6,7 +6,7 @@ from .models import Day
 
 class IndexView(generic.ListView):
     model = Day
-    paginate_by = 10
+    paginate_by = 10 #一ページに何件表示するか
 
 class AddView(generic.CreateView):
     model = Day
